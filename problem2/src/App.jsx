@@ -85,7 +85,7 @@ const App = () => {
                     receiveAmount: ''
                 }}
             >
-                <Space>
+                <Space className={'space-layout'}>
                     <Form.Item
                         label="Amount to send"
                         name="sendAmount"

@@ -26,3 +26,9 @@ body {
 .ant-input-group-wrapper-outlined .ant-input-group-addon {
   background: #fff;
 }
+
+@media screen and (max-width: 650px) {
+  .space-layout {
+    flex-direction: column;
+  }
+}
