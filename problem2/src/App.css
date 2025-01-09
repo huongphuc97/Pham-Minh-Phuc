@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+.currency-options {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ant-input-group-wrapper-outlined.ant-input-group-wrapper-status-error .ant-input-group-addon {
+  border-color: #d9d9d9;
+}
+
+.ant-input-group-wrapper-outlined .ant-input-group-addon {
+  background: #fff;
+}
